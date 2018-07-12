@@ -2,14 +2,14 @@
 1. PRIMARY STYLES
 --------------------------------- */
 
-html{ font-size: 100%; height: 100%; width: 100%; overflow-x: hidden; margin: 0px;  padding: 0px; touch-action: manipulation; }
+html{ font-size: 100%; height: 100%; width: 100%; overflow-x: hidden; margin: 0px; padding: 0px; touch-action: manipulation; }
 
 
-body{ font-size: 16px; font-family: 'Open Sans', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
+body{ font-size: 16px; font-family: 'Open Sans', sans-serif; margin: 0; font-weight: 400;
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; overflow-x: hidden;
   color: #333; }
 
-h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, input, button{ margin: 0; padding: 0; }
 
 h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
@@ -41,10 +41,6 @@ span{ display: inline-block; }
 button{ outline: 0; border: 0; background: none; cursor: pointer; }
 
 b.light-color{ color: #444; }
-
-.icon{ font-size: 1.1em; display: inline-block; line-height: inherit; }
-
-[class^="icon-"]:before, [class*=" icon-"]:before{ line-height: inherit; }
 
 *, *::before, *::after {
     -webkit-box-sizing: inherit;
@@ -100,7 +96,7 @@ b.light-color{ color: #444; }
 
 .main-area .notify-btn:hover{ background: none; }
 
-.main-area .social-btn{ position: absolute; bottom: 40px; width: 100%; left: 50%; transform: translateX(-50%); }
+.main-area .social-btn{ position: fixed; bottom: 40px; width: 100%; left: 50%; transform: translateX(-50%); }
 
 .main-area .social-btn > li > a{ margin: 0 10px; padding-bottom: 7px; position: relative; overflow: hidden; }
 
