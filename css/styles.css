@@ -1,1 +1,289 @@
-body,html{overflow-x:hidden}a,button,h1,h2,h3,h4,h5,h6,html,img,input,li,p,span,ul{margin:0;padding:0}a,button,li,span{display:inline-block}.full-height,html{height:100%}.display-table,html,img{width:100%}html{font-size:100%;touch-action:manipulation}body{font-size:16px;font-family:'Open Sans',sans-serif;margin:0;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;word-wrap:break-word;color:#333}h1,h2,h3,h4,h5,h6{line-height:1.5;font-weight:inherit}a,button,h1{line-height:1}h1,h2,h3{font-family:Poppins,sans-serif}p{line-height:1.6;font-size:1.05em;font-weight:400;color:#555}h1{font-size:3.5em}h2{font-size:3em;line-height:1.1}h3{font-size:2.5em}h4{font-size:1.5em}h5{font-size:1.2em}h6{font-size:.9em;letter-spacing:1px}a,button{text-decoration:none;color:inherit;transition:all .3s}a b.light-color:hover,a:active,a:focus,a:hover,button:active,button:focus,button:hover{text-decoration:none;color:#E45F74}b{font-weight:500}li{list-style:none}button{outline:0;border:0;background:0 0;cursor:pointer}b.light-color{color:#444}.font-white,.main-area{color:#fff}*,::after,::before{-webkit-box-sizing:inherit;box-sizing:inherit}.center-text{text-align:center}.display-table{display:table;height:100%}.display-table-cell{display:table-cell;vertical-align:middle}::-webkit-input-placeholder{font-size:.9em;letter-spacing:1px}::-moz-placeholder{font-size:.9em;letter-spacing:1px}:-ms-input-placeholder{font-size:.9em;letter-spacing:1px}:-moz-placeholder{font-size:.9em;letter-spacing:1px}.position-static{position:static}.main-area{position:relative;height:100vh;z-index:1;padding:0 20px;background-size:cover}.main-area:after{content:'';position:absolute;top:0;bottom:0;left:0;right:0;z-index:-1;opacity:.4;background:#000}.main-area .desc{margin:20px auto;max-width:500px}.main-area .notify-btn{padding:13px 35px;border-radius:50px;border:2px solid #F84982;color:#fff;background:#F84982}.main-area .notify-btn:hover{background:0 0}.main-area .social-btn{position:fixed;bottom:40px;width:100%;left:50%;transform:translateX(-50%)}.main-area .social-btn>li>a{margin:0 10px;padding-bottom:7px;position:relative;overflow:hidden}.main-area .social-btn>li>a:after{content:'';position:absolute;bottom:0;left:0;right:0;transition:all .2s;height:2px;background:#F84982}.main-area .social-btn>li>a:hover:after{transform:translateX(100%)}@media only screen and (max-width:767px){p{line-height:1.4}h1{font-size:2.8em;line-height:1}h2{font-size:2.2em;line-height:1.1}h3{font-size:1.8em}}@media only screen and (max-width:479px){body{font-size:12px}}
+body,
+html {
+  overflow-x: hidden;
+}
+
+a,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+img,
+input,
+li,
+p,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+button,
+li,
+span {
+  display: inline-block;
+}
+
+.full-height,
+html {
+  height: 100%;
+}
+
+.display-table,
+html,
+img {
+  width: 100%;
+}
+
+html {
+  font-size: 100%;
+  touch-action: manipulation;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-wrap: break-word;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+  font-weight: inherit;
+}
+
+a,
+button,
+h1 {
+  line-height: 1;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Poppins, sans-serif;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.05em;
+  font-weight: 400;
+  color: #555;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 3em;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+a,
+button {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+}
+
+a b.light-color:hover,
+a:active,
+a:focus,
+a:hover,
+button:active,
+button:focus,
+button:hover {
+  text-decoration: none;
+  color: #e45f74;
+}
+
+b {
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  background: 0 0;
+  cursor: pointer;
+}
+
+b.light-color {
+  color: #444;
+}
+
+.font-white,
+.main-area {
+  color: #fff;
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.display-table {
+  display: table;
+  height: 100%;
+}
+
+.display-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+::-webkit-input-placeholder {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+::-moz-placeholder {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+:-ms-input-placeholder {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+:-moz-placeholder {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.position-static {
+  position: static;
+}
+
+.main-area {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+  padding: 0 20px;
+  background-size: cover;
+}
+
+.main-area:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.4;
+  background: #000;
+}
+
+.main-area .desc {
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.main-area .notify-btn {
+  padding: 13px 35px;
+  border-radius: 50px;
+  border: 2px solid #f84982;
+  color: #fff;
+  background: #f84982;
+}
+
+.main-area .notify-btn:hover {
+  background: 0 0;
+}
+
+.main-area .social-btn {
+  position: fixed;
+  bottom: 40px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main-area .social-btn > li > a {
+  margin: 0 10px;
+  padding-bottom: 7px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-area .social-btn > li > a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.2s;
+  height: 2px;
+  background: #f84982;
+}
+
+.main-area .social-btn > li > a:hover:after {
+  transform: translateX(100%);
+}
+
+@media only screen and (max-width: 767px) {
+  p {
+    line-height: 1.4;
+  }
+  h1 {
+    font-size: 2.8em;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 2.2em;
+    line-height: 1.1;
+  }
+  h3 {
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 12px;
+  }
+}
