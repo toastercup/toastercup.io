@@ -118,6 +118,10 @@ button {
   transition: all 0.3s;
 }
 
+.desc a {
+  color: #fabdc6;
+}
+
 a b.light-color:hover,
 a:active,
 a:focus,
