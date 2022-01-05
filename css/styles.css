@@ -53,7 +53,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   word-wrap: break-word;
-  color: #333;
+  color: rgb(200, 195, 188);
 }
 
 h1,
@@ -119,7 +119,7 @@ button {
 }
 
 .desc a {
-  color: #fabdc6;
+  color: rgb(248, 161, 174);
 }
 
 a b.light-color:hover,
@@ -152,9 +152,9 @@ b.light-color {
   color: #444;
 }
 
-.font-white,
+.font-offwhite,
 .main-area {
-  color: #fff;
+  color: rgb(232, 230, 227);
 }
 
 *,
@@ -230,9 +230,9 @@ b.light-color {
 .main-area .notify-btn {
   padding: 13px 35px;
   border-radius: 50px;
-  border: 2px solid #f84982;
-  color: #fff;
-  background: #f84982;
+  border: 2px solid rgb(153, 6, 54);
+  color: rgb(232, 230, 227);
+  background: rgb(158, 6, 56);
 }
 
 .main-area .notify-btn:hover {
